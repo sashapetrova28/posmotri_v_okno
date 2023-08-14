@@ -107,8 +107,8 @@ ol {
   border-top: 1px solid #FFF;
   border-bottom: 1px solid #FFF;
   color: rgba(255, 255, 255, 0.70);
-  font-family: Fira Sans Condensed;
-  font-size: 18px;
+  font-family: inherit;
+  font-size: inherit;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -178,7 +178,7 @@ input[type="checkbox"] + span {
   border: 1px solid #FFF;
   color: #FFF;
   text-align: center;
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -224,7 +224,7 @@ input[type="checkbox"] + span {
 
 .title {
   color: #FFF;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
@@ -278,6 +278,10 @@ input[type="checkbox"] + span {
   text-decoration-color: #FFF;
 }
 
+.content__card-link_current {
+  background-color: #545050;
+}
+
 .content__video-card-description-container {
   display: flex;
   flex-direction: column;
@@ -286,7 +290,7 @@ input[type="checkbox"] + span {
 
 .content__video-card-title {
   color: #FFF;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -296,7 +300,7 @@ input[type="checkbox"] + span {
 
 .content__video-card-description {
   color: #FFF;
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -312,7 +316,7 @@ input[type="checkbox"] + span {
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
-  padding: 2px;
+  object-fit: cover;
 }
 
 .content__video-card-description-container {
